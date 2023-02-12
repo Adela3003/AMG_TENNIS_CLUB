@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import './Login.css';
 import axios from "axios";
 
@@ -7,15 +7,17 @@ import axios from "axios";
      const [email, setEmail] = useState('');
      const [password, setPassword] = useState('');
 
+     //const { state, dispatch: ctxDispatch } = useContext{Login}
      const submitHandler = async (e) => {
          e.preventDefault();
          try{
-           const {data} = await axios.post('./frontend/containers/Login/Login.js', {
+           const {data} = await axios.post('/api/users/login', {
              email,
              password
            });
-           console.log(email);
+          // ctxDispatch({type: "USER_LOGIN", payload: data})
            console.log(data);
+          // console.log(data);
          }catch(err) {
            console.log("eroare");
          }
