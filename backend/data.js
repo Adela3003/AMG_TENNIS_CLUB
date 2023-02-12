@@ -1,4 +1,4 @@
-//import bcrypt from 'bcryptjs';
+import bcrypt from 'bcryptjs';
 const data = {
     coaches: [
       {
@@ -44,19 +44,19 @@ const data = {
         description: 'coach for professional players',
       },
     ],
-    // users: [
-    //   {
-    //      name: 'Adela',
-    //      email: 'adela@example.com',
-    //      password: bcrypt.hashSync('123456'),
-    //      isAdmin: true,
-    //   },
-    //   {
-    //      name: 'John',
-    //      email: 'john@example.com',
-    //      password: bcrypt.hashSync('12345'),
-    //      isAdmin: false,
-    //   }
-    // ],
+     users: [
+       {
+          name: 'Adela',
+          email: 'adela@example.com',
+          password: bcrypt.hashSync('123456'),
+          isAdmin: true,
+       },
+       {
+          name: 'John',
+          email: 'john@example.com',
+          password: bcrypt.hashSync('12345'),
+          isAdmin: false,
+       }
+     ],
   };
   export default data;
