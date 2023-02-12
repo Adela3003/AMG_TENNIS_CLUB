@@ -1,0 +1,76 @@
+.navbarContainer {
+    background-color: #E2D1F9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px; 
+  }
+  
+  .container {
+    display: flex;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .tennisClubLogo{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  .container li {
+    margin: 1rem;
+  }
+  
+  .leftContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  .rightContainer {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .links {
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #317773;
+  }
+  
+  .links:hover {
+    color: #0069d9;
+  }
+  
+  .iconHover {
+    display: none;
+  }
+  
+  .boxAccount:hover .iconHover {
+    display: block;
+  }
+  
+  .boxAccount:hover .iconNormal {
+    display: none;
+  }
+  
+  .Login{
+    margin-right: 20px;
+  }
+  
+  .Register{
+    margin-left: 20px;
+  }
+  
+  

@@ -1,0 +1,39 @@
+.titles{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    background-color: #E2D1F9;
+}
+
+.titles h1 {
+    background-color: #E2D1F9;
+    text-align: center;
+    font-size: 50px; 
+    font-weight: 700; 
+    color: #317773; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    border-bottom: 1px solid #317773;
+    border-top: 1px solid #317773;
+    padding-top: 15px;
+}
+    
+.titles h1:after,.titles h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #317773;
+    border-top: 1px solid #317773;
+    height: 5px;
+    background-color: #E2D1F9;
+    }
+    
