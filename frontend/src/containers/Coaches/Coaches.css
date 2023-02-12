@@ -1,0 +1,24 @@
+.coaches{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coach{
+    background-color: #E2D1F9;
+    border: 3px #317773 solid;
+    margin: 1rem;
+}
+
+.coach img{
+    width: 375px;
+    /* max-width: 370px; */
+    height: 450px;
+}
+
+.coach-info{
+    padding: 1rem;
+    font-family: sans-serif;
+    color: #317773;
+    letter-spacing: 1px;
+}

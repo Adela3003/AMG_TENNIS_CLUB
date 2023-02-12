@@ -1,0 +1,57 @@
+.title{
+    margin-top: 50px;
+    color: #317773;
+    font-family: sans-serif;
+}
+
+.type{
+    font-family: sans-serif;
+    color: #317773;
+    font-weight: 700; 
+}
+
+.courts {
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 360px;
+}
+  
+.container1 {
+    margin-right: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+} 
+
+.container2 {
+    margin-right: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+} 
+
+.container3{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.img{
+    width: 32.85vw;
+    height: 32.85vh;
+}
+
+.price{
+    margin-top: 50px;
+    color: #317773;
+    font-family: sans-serif;
+}
+
+article h3{
+    text-decoration: underline;
+}
+
+.info{
+    margin-top: 40px;
+    color: #317773;
+    font-family: sans-serif;
+    font-weight: 700; 
+}
