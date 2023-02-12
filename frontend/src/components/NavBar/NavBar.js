@@ -23,21 +23,21 @@ function NavBar() {
                 RENT A COURT
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/competitions" className="links">
               COMPETITIONS
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/coaches" className="links">
                 COACHES
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/equipment" className="links">
                  EQUIPMENT
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="rightContainer">
